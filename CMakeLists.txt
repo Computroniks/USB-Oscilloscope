@@ -13,6 +13,7 @@ project("USB Oscilloscope" VERSION 0.1.0)
 enable_language(CXX)
 enable_language(C)
 set(PRODUCT_NAME usb_oscilloscope)
+add_subdirectory(./docs)
 
 
 # AVR Config
